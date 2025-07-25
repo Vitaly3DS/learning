@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 .container {
     background: linear-gradient(to top left, #3d85a9, #1b2c55);
     background-repeat: no-repeat;
@@ -6,6 +10,9 @@
     border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h1 {
+    color: #0d0c0c;
+}
 .title {
     text-align: center;
     color: rgb(252, 252, 252);
@@ -13,12 +20,20 @@
     
     
 }
+
+#test {
+    color: aquamarine;
+}
+
 .text {
     text-align: center;
     color: rgb(252, 252, 252);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
+    margin-top: 30px;
 }
+
+
 .board {
     
     background-color: white;
@@ -27,6 +42,9 @@
     display: block;
     margin: auto;
     border-radius: 20px;
+    margin-top: 10vh;
+    box-shadow: 1px 1px 1px 1px #1b2c55;
+ 
 
 }
 .write_place {
@@ -64,8 +82,10 @@ ul {
 }
 
 input[type="checkbox"] {
-    width: 13px;
-    height: 13px;
+    width: 14px;
+    height: 14px;
+    accent-color: #3d85a9;
+   
 }
 
 input[type="checkbox"] + label {
@@ -74,7 +94,7 @@ input[type="checkbox"] + label {
   transition: text-decoration 0.3s;
 }
 
-input[type="checkbox"]:checked + label {
+.task-content input[type="checkbox"]:checked + label {
   text-decoration: line-through;
   color: rgb(18, 17, 17);
 }
@@ -88,7 +108,7 @@ li{
     border: 1px solid #c6c6c6;
 
     width: 400px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: -20px;
     border-radius: 20px;
  line-height: 50px;
@@ -128,9 +148,18 @@ li :hover {
     border-radius: 20px;
     color: white;
     opacity: 0.8;
-    box-shadow: 2px 2px 4px 1px #04cbad;
+    box-shadow: 1px 1px 1px 1px #04cbad;
 
 }
+
+ul {
+    margin-top: 4vh;
+}
+
+.viewer_task h2 {
+    margin-top: 15px;
+}
+
 
 
 
